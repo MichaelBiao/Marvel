@@ -1,0 +1,15 @@
+//
+//  Configuration.pch
+//  Marvel
+//
+//  Created by BiaoShu on 2018/3/12.
+//  Copyright © 2018年 BiaoShu. All rights reserved.
+//
+
+#ifndef Configuration_h
+#define Configuration_h
+
+#define PUBLIC_KEY       @"9a150a212b2d2e2ddedd9547b3b3df11"
+#define PRIVATE_KEY      @"54824c2b7b2ce5bfb9f2e920a197af8c64fe274b"
+
+#endif /* Configuration_h */

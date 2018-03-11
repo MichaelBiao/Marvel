@@ -15,6 +15,18 @@
 		2D8192FE205123910051A29F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8192FD205123910051A29F /* main.m */; };
 		2D819308205123910051A29F /* MarvelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D819307205123910051A29F /* MarvelTests.m */; };
 		2D819313205123910051A29F /* MarvelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D819312205123910051A29F /* MarvelUITests.m */; };
+		2D819326205525EB0051A29F /* MarvelNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D819325205525EB0051A29F /* MarvelNetworking.m */; };
+		2D819329205554730051A29F /* MarvelAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D819328205554730051A29F /* MarvelAPIManager.m */; };
+		2D819333205592BF0051A29F /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D819331205592BF0051A29F /* NSString+MD5.m */; };
+		2D81933C2055958E0051A29F /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D81933B2055958E0051A29F /* Character.m */; };
+		2D81933F2055959C0051A29F /* Comic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D81933E2055959C0051A29F /* Comic.m */; };
+		2D819342205595C00051A29F /* Creator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D819341205595C00051A29F /* Creator.m */; };
+		2D819345205595C90051A29F /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D819344205595C90051A29F /* Event.m */; };
+		2D819348205595E20051A29F /* Series.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D819347205595E20051A29F /* Series.m */; };
+		2D81934B205595F00051A29F /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D81934A205595F00051A29F /* Story.m */; };
+		2D81934F2055987E0051A29F /* MarvelMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D81934E2055987E0051A29F /* MarvelMainViewController.m */; };
+		2D819352205598900051A29F /* MarvelDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D819351205598900051A29F /* MarvelDetailViewController.m */; };
+		2D819355205598B60051A29F /* MarvelMainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D819354205598B60051A29F /* MarvelMainViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,31 @@
 		2D81930E205123910051A29F /* MarvelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D819312205123910051A29F /* MarvelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelUITests.m; sourceTree = "<group>"; };
 		2D819314205123910051A29F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D819324205525EB0051A29F /* MarvelNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarvelNetworking.h; sourceTree = "<group>"; };
+		2D819325205525EB0051A29F /* MarvelNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelNetworking.m; sourceTree = "<group>"; };
+		2D819327205554730051A29F /* MarvelAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarvelAPIManager.h; sourceTree = "<group>"; };
+		2D819328205554730051A29F /* MarvelAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelAPIManager.m; sourceTree = "<group>"; };
+		2D819331205592BF0051A29F /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		2D819332205592BF0051A29F /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		2D81933A2055958E0051A29F /* Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		2D81933B2055958E0051A29F /* Character.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		2D81933D2055959C0051A29F /* Comic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Comic.h; sourceTree = "<group>"; };
+		2D81933E2055959C0051A29F /* Comic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Comic.m; sourceTree = "<group>"; };
+		2D819340205595C00051A29F /* Creator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creator.h; sourceTree = "<group>"; };
+		2D819341205595C00051A29F /* Creator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creator.m; sourceTree = "<group>"; };
+		2D819343205595C90051A29F /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		2D819344205595C90051A29F /* Event.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		2D819346205595E20051A29F /* Series.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Series.h; sourceTree = "<group>"; };
+		2D819347205595E20051A29F /* Series.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Series.m; sourceTree = "<group>"; };
+		2D819349205595F00051A29F /* Story.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Story.h; sourceTree = "<group>"; };
+		2D81934A205595F00051A29F /* Story.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Story.m; sourceTree = "<group>"; };
+		2D81934D2055987E0051A29F /* MarvelMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarvelMainViewController.h; sourceTree = "<group>"; };
+		2D81934E2055987E0051A29F /* MarvelMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelMainViewController.m; sourceTree = "<group>"; };
+		2D819350205598900051A29F /* MarvelDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarvelDetailViewController.h; sourceTree = "<group>"; };
+		2D819351205598900051A29F /* MarvelDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelDetailViewController.m; sourceTree = "<group>"; };
+		2D819353205598B60051A29F /* MarvelMainViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarvelMainViewCell.h; sourceTree = "<group>"; };
+		2D819354205598B60051A29F /* MarvelMainViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarvelMainViewCell.m; sourceTree = "<group>"; };
+		2D81935720559AC50051A29F /* Configuration.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +138,12 @@
 		2D8192ED205123910051A29F /* Marvel */ = {
 			isa = PBXGroup;
 			children = (
+				2D81935620559AB00051A29F /* Configuration */,
+				2D81934C205598590051A29F /* Views */,
+				2D81932A205557420051A29F /* Utility */,
+				2D8193212053D2950051A29F /* Models */,
+				2D8193202053D2950051A29F /* Network */,
+				2D8193222053D2950051A29F /* ViewControllers */,
 				2D8192EE205123910051A29F /* AppDelegate.h */,
 				2D8192EF205123910051A29F /* AppDelegate.m */,
 				2D8192F1205123910051A29F /* ViewController.h */,
@@ -130,6 +173,121 @@
 				2D819314205123910051A29F /* Info.plist */,
 			);
 			path = MarvelUITests;
+			sourceTree = "<group>";
+		};
+		2D8193202053D2950051A29F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2D819324205525EB0051A29F /* MarvelNetworking.h */,
+				2D819325205525EB0051A29F /* MarvelNetworking.m */,
+				2D819327205554730051A29F /* MarvelAPIManager.h */,
+				2D819328205554730051A29F /* MarvelAPIManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2D8193212053D2950051A29F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D819335205595790051A29F /* Characters  */,
+				2D8193382055957A0051A29F /* Comics */,
+				2D8193372055957A0051A29F /* Creators */,
+				2D8193392055957A0051A29F /* Events */,
+				2D8193362055957A0051A29F /* Series */,
+				2D819334205595790051A29F /* Stories */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D8193222053D2950051A29F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D81934D2055987E0051A29F /* MarvelMainViewController.h */,
+				2D81934E2055987E0051A29F /* MarvelMainViewController.m */,
+				2D819350205598900051A29F /* MarvelDetailViewController.h */,
+				2D819351205598900051A29F /* MarvelDetailViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2D81932A205557420051A29F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2D819332205592BF0051A29F /* NSString+MD5.h */,
+				2D819331205592BF0051A29F /* NSString+MD5.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2D819334205595790051A29F /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				2D819349205595F00051A29F /* Story.h */,
+				2D81934A205595F00051A29F /* Story.m */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		2D819335205595790051A29F /* Characters  */ = {
+			isa = PBXGroup;
+			children = (
+				2D81933A2055958E0051A29F /* Character.h */,
+				2D81933B2055958E0051A29F /* Character.m */,
+			);
+			path = "Characters ";
+			sourceTree = "<group>";
+		};
+		2D8193362055957A0051A29F /* Series */ = {
+			isa = PBXGroup;
+			children = (
+				2D819346205595E20051A29F /* Series.h */,
+				2D819347205595E20051A29F /* Series.m */,
+			);
+			path = Series;
+			sourceTree = "<group>";
+		};
+		2D8193372055957A0051A29F /* Creators */ = {
+			isa = PBXGroup;
+			children = (
+				2D819340205595C00051A29F /* Creator.h */,
+				2D819341205595C00051A29F /* Creator.m */,
+			);
+			path = Creators;
+			sourceTree = "<group>";
+		};
+		2D8193382055957A0051A29F /* Comics */ = {
+			isa = PBXGroup;
+			children = (
+				2D81933D2055959C0051A29F /* Comic.h */,
+				2D81933E2055959C0051A29F /* Comic.m */,
+			);
+			path = Comics;
+			sourceTree = "<group>";
+		};
+		2D8193392055957A0051A29F /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				2D819343205595C90051A29F /* Event.h */,
+				2D819344205595C90051A29F /* Event.m */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		2D81934C205598590051A29F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D819353205598B60051A29F /* MarvelMainViewCell.h */,
+				2D819354205598B60051A29F /* MarvelMainViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D81935620559AB00051A29F /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2D81935720559AC50051A29F /* Configuration.pch */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +423,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D819329205554730051A29F /* MarvelAPIManager.m in Sources */,
+				2D81933C2055958E0051A29F /* Character.m in Sources */,
+				2D819345205595C90051A29F /* Event.m in Sources */,
+				2D81934B205595F00051A29F /* Story.m in Sources */,
+				2D819326205525EB0051A29F /* MarvelNetworking.m in Sources */,
+				2D819348205595E20051A29F /* Series.m in Sources */,
 				2D8192F3205123910051A29F /* ViewController.m in Sources */,
+				2D819355205598B60051A29F /* MarvelMainViewCell.m in Sources */,
 				2D8192FE205123910051A29F /* main.m in Sources */,
+				2D819352205598900051A29F /* MarvelDetailViewController.m in Sources */,
+				2D81933F2055959C0051A29F /* Comic.m in Sources */,
+				2D81934F2055987E0051A29F /* MarvelMainViewController.m in Sources */,
 				2D8192F0205123910051A29F /* AppDelegate.m in Sources */,
+				2D819342205595C00051A29F /* Creator.m in Sources */,
+				2D819333205592BF0051A29F /* NSString+MD5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
